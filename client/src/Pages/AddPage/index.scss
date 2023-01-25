@@ -1,0 +1,39 @@
+.lvlc{
+    height: 68vh;
+   background-color: brown;
+   padding-top: 300px;
+    .form{
+        color: wheat;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 1300px;
+        margin: 0 auto;
+        .ino{
+            width: 150px;
+            background-color: rgb(241, 233, 233);
+            height: 15px;
+            padding: 0.375rem 0.75rem;
+            border: 1px solid gainsboro;
+        }
+        .submit{
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            height: 34px;
+            width: 110px;
+            color: #fff;
+            background: #7971ea;
+            border-radius: 30px;
+            font-size: .7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            transition: .3s all ease;
+
+            &:hover {
+                background-color: #2d2a55;
+                transition: all .3s ease;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 570px;
+    margin: 0 auto;
+    margin-top: 50px;
+    .about_yazilari{
+        h2{
+            font-size: 3rem;
+            margin-bottom: 1.8rem;
+            font-weight: 700;
+            line-height: 1.2;
+            font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        p{
+            line-height: 1.7;
+            color: gray;
+            font-weight: 300;
+            font-size: 1.1rem;
+            
+        }
+    }
+}

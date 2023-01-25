@@ -1,0 +1,40 @@
+.Footer_main{
+    width: 100%;
+    max-width: 100%;
+    height: 60vh;
+    .hr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(59, 60, 60);
+        hr{
+            margin-top: 350px;
+            width: 1100px;
+            height: 1px;
+            
+        }
+    }
+    .footer_yazi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 1rem;
+            line-height: 1.7;
+            color: gray;
+            font-weight: 300;
+            i{
+                color: gray;
+            }
+            .st{
+                color: rgb(76, 80, 187);
+                text-decoration: none;
+                transition: all .3s;
+                &:hover{
+                transition: all .3s;
+                color: rgb(2, 2, 23);
+                }
+            }
+        }
+    }
+}

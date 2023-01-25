@@ -1,0 +1,55 @@
+.detail_page{
+    background: url("https://media.istockphoto.com/id/944992124/photo/cheerful-bearded-man-in-glasses-making-advertisement-of-new-product.jpg?s=612x612&w=0&k=20&c=w5g6yb7lR1Rl93g9CR7EyOAEn0r7dCnEeae2D11fDVc=");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .lvl{
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 1200px;
+        
+        
+        .cards{
+            margin-top: 250px;
+            padding-bottom: 60px;
+            margin-left: -100px;
+            border: 1px solid rgb(242, 238, 238);
+            background-color: white;
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .yumru{
+                margin-top: -70px;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+            }
+            .uzun{
+                width: 85%;
+            }
+            .back{
+                cursor: pointer;
+                border: none;
+                height: 48px;
+                width: 110px;
+                color: #fff;
+                background: #7971ea;
+                border-radius: 30px;
+                font-size: .7rem;
+                font-weight: 900;
+                text-transform: uppercase;
+                transition: .3s all ease;
+
+                &:hover {
+                    background-color: #2d2a55;
+                    transition: all .3s ease;
+                }
+            }
+        }
+    }
+}
